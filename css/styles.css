@@ -56,9 +56,9 @@ body {
     background-color: rgb(0, 0, 0, 0.5);
     z-index: 2;
   }
-  /* nav>ul {
+ nav>ul {
     text-align: right;
   }
 nav>ul>li {
   display: inline-block;
-}  */
+}
