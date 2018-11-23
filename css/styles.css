@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
     padding: 11px 0;
     margin-right: 0%;
+    color: white;
   }
   nav>ul>li>a {
     padding: 20px;
@@ -27,7 +28,7 @@ body {
   nav>ul>li>a:hover {
     box-shadow: red;
     background: yellow;
-    color: black;
+    color: red;
     display: inline-block;
   }
   li {
@@ -38,9 +39,9 @@ body {
     font-size: 30px;
     font-family: sans-serif;
   }
-  /* body {
-    background-image: url("https://github.com/JamesMusyoka/Personal-portfolio.git");
-  } */
+  body {
+    background-image: url("https://www.setaswall.com/wp-content/uploads/2017/06/Programming-Wallpapers-29-1600-x-1066.png");
+  }
   #banner, #home {
     padding: 1.5;
     text: center;
@@ -62,4 +63,7 @@ body {
   }
 nav>ul>li {
   display: inline-block;
+}
+background-image{
+  background-repeat: no-repeat;
 }
