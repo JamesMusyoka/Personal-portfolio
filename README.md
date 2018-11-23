@@ -11,7 +11,7 @@ Many websites still in progress.
 HTML
 CSS
 ## Support and contact details
-email:aluochsheila1999@gmail.com
+email:jamesmu475@gmail.com
 Phone no:0711821055
 ### License
  Copyright (c) 2018 **James Muito**
