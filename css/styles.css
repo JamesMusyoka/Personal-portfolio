@@ -23,12 +23,12 @@ body {
     text-decoration: none;
     display: block;
   }
-  /* nav>ul>li>a:hover {
+  nav>ul>li>a:hover {
     box-shadow: red;
     background: yellow;
     color: black;
     display: inline-block;
-  } */
+  }
   li {
     list-style-type: none;
   }
