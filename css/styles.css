@@ -1,8 +1,73 @@
-
-/**/
-.avatar {
+/* .avatar {
   vertical-align: middle;
-  width: 50px;
-  height: 50px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
+  position: center;
+} */
+img{
+  border-radius: 50%;
+  position: center;
+  width: 250px;
+  height: 250px;
+  float: right;
+}
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -100px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 125px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#home {
+  top: 20px;
+  background-color: palevioletred;
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#skills {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336; /* Red */
+}
+
+#contact {
+  top: 200px;
+  background-color: #555 /* Light Black */
+}
+.container-fluids{
+  background-image: url("https://store-images.s-microsoft.com/image/apps.55157.9007199266249061.af04035e-d516-4d6f-8eb8-3ed0ef3ce83f.debcc0a2-7907-429e-b2bf-047e42aaed9a?mode=scale&q=90&h=720&w=1280");
+  padding: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  float: right;
+  color: blueviolet;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
 }
