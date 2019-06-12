@@ -37,14 +37,13 @@ img{
   background-color: #555;
 }
 
-#skills {
-  top: 80px;
-  background-color: #555; /* Blue */
-}
-
 #projects {
   top: 140px;
   background-color: #555; /* Red */
+}
+#skills {
+  top: 80px;
+  background-color: #555; /* Blue */
 }
 
 #contact {
