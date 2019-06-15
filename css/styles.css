@@ -12,10 +12,10 @@ img{
 }
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
-  left: -100px; /* Position them outside of the screen */
+  left: -80px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
-  width: 125px; /* Set a specific width */
+  width: 100px; /* Set a specific width */
   text-decoration: none; /* Remove underline */
   font-size: 20px; /* Increase font size */
   color: white; /* White text color */
@@ -33,22 +33,23 @@ img{
 }
 
 #about {
-  top: 20px;
-  background-color: #555;
-}
-
-#projects {
-  top: 140px;
-  background-color: #555; /* Red */
-}
-#skills {
   top: 80px;
   background-color: #555; /* Blue */
 }
 
-#contact {
+#project {
+  top: 140px;
+  background-color: #555; /* Red */
+}
+
+#skills {
   top: 200px;
   background-color: #555 /* Light Black */
+}
+
+#contact{
+  top: 260px;
+  background-color: #555;
 }
 .container-fluids{
   background-image: url("https://store-images.s-microsoft.com/image/apps.55157.9007199266249061.af04035e-d516-4d6f-8eb8-3ed0ef3ce83f.debcc0a2-7907-429e-b2bf-047e42aaed9a?mode=scale&q=90&h=720&w=1280");
@@ -68,4 +69,7 @@ h2{
 }
 p{
   text-align: center;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
 }
